@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+
+
+body{
+
+font-family: 'Overpass Mono', monospace;   
+position: relative;
+
+
+}
+
+
+h1 {
+
+font-family: 'Barrio', cursive;
+font-size: 3rem;
+color: rgb(255, 140, 46);
+font-weight: normal;
+
+}
+
+p {
+    font-size: 0.7rem;
+
+}
+
+main {
+
+width: 400px;
+margin: 5vh auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+
+
+}
+
+input {
+
+border-style:none;
+font-size: 0.7rem;
+width: 80%;
+padding:5px;
+border-radius: 10px;
+text-align: center;
+font-family: 'Overpass Mono', monospace;  
+}
+
+input:focus {
+outline: none;
+}
+
+button {
+
+margin: 40px;
+width: 200px;
+height: 40px;
+border-radius: 30px;
+background: linear-gradient(to right, #1d976c, #93f9b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
+border-style: none;
+font-family: 'Overpass Mono', monospace;  
+font-size: 1.6rem;
+cursor: pointer;
+transition: 200ms ease;
+}
+
+button:hover {
+
+transform: scale(1.05);
+transition: 500ms ease;
+box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+
+}
+
+button:focus {
+outline: none;
+}
+
+.boxes {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.box {
+height: 100px;
+width: 100px;
+margin: 3px;
+border-radius: 10px;
+color: #fff;
+line-height: 100px;
+text-align: center;
+cursor: pointer;
+transition: 500ms ease;
+position: relative;
+}
+
+.box:hover {
+
+transform: scale(1.05);
+transition: 500ms ease;
+box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+}
+
+.message {
+
+position: absolute;
+top: 0px;
+left: 50%;
+margin-top:     -40px;
+margin-left: -50px;
+width: 100px;
+height: 30px;
+color: #fff;
+font-size: 1.2rem;
+font-family: 'Overpass Mono', monospace;  
+text-align: center;
+line-height: 30px;
+border: 3px #000 solid;
+border-radius: 20px;
+background: linear-gradient(to right, #1d976c, #93f9b9);
+
+}
+
