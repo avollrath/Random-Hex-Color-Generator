@@ -1,6 +1,7 @@
 const btn = document.querySelector('button');
 const input = document.querySelector('input');
 const boxes = document.querySelector('.boxes');
+
 const copyToClipboard = str => {
     const el = document.createElement('textarea');
     el.value = event.target.innerHTML;
